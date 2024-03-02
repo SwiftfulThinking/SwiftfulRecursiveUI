@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-typealias LazyZStack = AnyRecursiveView
+public typealias LazyZStack = AnyRecursiveView
 
 // Notes:
 // 1. ParentView - The implementation
