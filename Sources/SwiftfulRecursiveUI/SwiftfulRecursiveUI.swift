@@ -13,7 +13,7 @@ public typealias LazyZStack = AnyRecursiveView
 //
 ///  LazyZStack is similar to adding all items into a ZStack and then adding logic to determine which item to render based on selection. This component manages the View's rendering lifecycle and ZIndex patterns so that SwiftUI Transitions always work as expected. Set allowSimultaneous to false to restrict the view to render only one item as a time. LazyZStack supports Bool, Int, or Identifiable selection.
 public struct AnyRecursiveView<T:Identifiable>: View {
-//
+
     let allowSimultaneous: Bool
     let selection: T?
     let items: [T]
